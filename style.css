@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #004aad;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .subtitulo {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  section {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    color: #004aad;
+    margin-bottom: 15px;
+  }
+  
+  iframe {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .botao-download {
+    display: inline-block;
+    background-color: #004aad;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .botao-download:hover {
+    background-color: #003a8c;
+  }
+  
+  .aviso {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #aa0000;
+  }
+  
+  footer {
+    background-color: #eee;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 40px;
+  }
+  
