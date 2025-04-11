@@ -63,11 +63,32 @@ body {
   
   footer {
     margin-top: 50px;
-    padding: 15px 0;
-    background-color: #f0f0f0; /* Cor da faixa */
     text-align: center;
     font-size: 14px;
-    color: #333;
-    border-top: 1px solid #ccc;
+    color: #666;
   }
-  
+
+  .requisitos {
+  background-color: #f1f5f9; /* cinza bem claro */
+  border-left: 4px solid #2563eb; /* azul discreto */
+  padding: 16px;
+  margin: 20px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 6px;
+}
+
+.requisitos h3 {
+  margin-top: 0;
+  color: #1e3a8a; /* azul mais escuro */
+  font-weight: 600;
+}
+
+.requisitos ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.requisitos li {
+  margin-bottom: 8px;
+}
