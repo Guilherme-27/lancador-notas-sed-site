@@ -41,17 +41,18 @@ body {
   
   .botao-download {
     display: inline-block;
-    background-color: #004aad;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #0078D7;
     color: white;
-    padding: 12px 24px;
-    border-radius: 5px;
     text-decoration: none;
-    font-size: 1.2em;
-    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
   }
   
   .botao-download:hover {
-    background-color: #003a8c;
+    background-color: #005ea6;
   }
   
   .aviso {
@@ -61,10 +62,12 @@ body {
   }
   
   footer {
-    background-color: #eee;
-    padding: 15px;
-    font-size: 0.9em;
-    color: #555;
-    margin-top: 40px;
+    margin-top: 50px;
+    padding: 15px 0;
+    background-color: #f0f0f0; /* Cor da faixa */
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ccc;
   }
   
