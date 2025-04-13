@@ -62,10 +62,23 @@ body {
   }
   
   footer {
-    margin-top: 50px;
+    background-color: #f1f5f9;
+    padding: 20px;
     text-align: center;
-    font-size: 14px;
-    color: #666;
+    font-size: 0.95rem;
+    color: #374151; /* cinza escuro */
+    border-top: 1px solid #e5e7eb;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    color: #2563eb; /* azul suave */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
   }
 
 .requisitos {
@@ -93,21 +106,4 @@ body {
 
 .requisitos li {
   margin-bottom: 8px;
-}
-
-.redes-sociais {
-  margin-top: 10px;
-}
-
-.redes-sociais a {
-  color: #000000;
-  margin: 0 10px;
-  font-size: 24px;
-  text-decoration: none;
-  transition: transform 0.2s ease;
-}
-
-.redes-sociais a:hover {
-  transform: scale(1.2);
-  color: #00acee;
 }
